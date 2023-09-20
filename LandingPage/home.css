@@ -1,0 +1,360 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    width: 100%;
+    /* height: auto; */
+    margin: auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 64px;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.user-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-item-img{
+    width: 24px;
+}
+
+.nav-menu-item{
+    display: flex;
+    gap: 24px;
+}
+
+.nav-menu-link{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 7px;
+    text-decoration: none;
+}
+
+.cooking-classes-text{
+    color: #252422;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.logo{
+    color: #D27722;
+    font-size: 32px;
+    font-family: Rubik;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.user-option{
+    gap: 24px;
+}
+
+.select-option{
+    color: #252422;
+    font-size: 19px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word
+}
+
+.option-languages{
+   
+}
+
+.option-money{
+  
+}
+
+/*  ===== INTRO  =====   */
+
+.intro{
+    margin: 70px 0 180px 0;
+}
+
+.intro-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.intro-right img{
+    width: 100%;
+}
+
+.intro-title{
+    color: #252422;
+    font-size: 61px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: 69.11px;
+    word-wrap: break-word;
+    width: 720px
+}
+
+.intro-experts{
+    color: #D27722;
+    font-size: 61px;
+    font-family: Pacifico;
+    font-weight: 400;
+    line-height: 69.11px;
+    word-wrap: break-word
+}
+
+.intro-text{
+    color: #403D39;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 25.60px;
+    word-wrap: break-word;
+    width: 535px;
+    padding: 25px 0;
+}
+
+.intro-links{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.intro-link{
+    padding: 0 10px;
+    color: #252422;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.intro-button-find{
+    /* margin: 0 20px 0 0; */
+    color: white;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 500;
+    word-wrap: break-word;
+    background: #D27722;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.intro-button-join{
+    color: #D27722;
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 500;
+    word-wrap: break-word;
+    background: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #D27722;
+}
+
+.intro-button{
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+/*  ===== STATS  =====   */
+.stats{
+    margin-bottom: 180px;
+}
+
+.stats-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 29px;
+    padding: 12px 24px;
+    background-color: #FFFDF4;
+    border: 1px solid #FFDBB8;
+    border-radius: 16px;
+    width: 1039px;
+    margin: auto;
+}
+
+.stat-item{
+    padding: 20px 50px;
+}
+
+.stat-rating{
+    display: flex;
+    align-items: center;
+}
+
+.stat-parameter{
+    color: #D27722;
+    font-size: 40px;
+    font-family: Rubik;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.stat-rating-img{
+    width: 27px;
+}
+
+.stat-title{
+    color: #403D39;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.stat-parameter{
+    gap: 10px;
+    text-align: center;
+}
+
+/*  =====   Explore & Learn    =====   */
+.categories{
+    margin-bottom: 205px;
+}
+.categories-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+
+.list-menu{
+    max-width: 422px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #FFDBB8;
+    padding: 24px 34px ;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.list-menu-img{
+    width: 52px;
+    height: 52px;
+}
+
+.list-bakery-title{
+    color: #252422;;
+    font-size: 24px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: 27.19px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.list-menu-content{
+    color: #252422;;
+    font-size: 14px;
+    font-family: Kanit;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word;
+    gap: 4px;
+}
+
+.list-item-img{
+    width: 24px;
+    height: 24px;
+    float:right;
+}
+
+.categories-head{
+    margin-bottom: 68px;
+}
+
+.categories-title-img{
+    width: 46px;
+    height: 34px;
+}
+
+.categories-title{
+    color: #252422;
+    font-size: 50px;
+    font-family: Rubik;
+    font-weight: 600;
+    line-height: 56.65px;
+    word-wrap: break-word
+}
+
+.explore-content{
+    color: #403D39;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+    line-height: 26.80px;
+    word-wrap: break-word
+}
+
+.categories-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-bakery{
+    background: #D27722;
+}
+
+.list-menu-link{
+    text-decoration: none;
+    color: #252422;;
+}
+
+.show-more-img{
+    width: 20px;
+    height: 20px;
+}
+
+.show-more{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 32px;
+    gap: 13px;
+}
+
+.show-more-link{
+    text-decoration: none;
+    color: #252422;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 500;
+    word-wrap: break-word
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Outfit:wght@400;500;700&family=Pacifico&family=Rubik:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css" class="">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="navbar">
+                <h2 class="logo">Cook</h2>
+                <form class="nav-menu-item">
+                    <a href="#" class="nav-menu-link">
+                        <img src="./icon/headerCook.png" alt="" class="nav-item-img">
+                        <p class="cooking-classes-text">Cooking Classes</p>
+                    </a>
+                </form>
+                <form class="nav-menu-item" >
+                    <a href="#" class="nav-menu-link">
+                        <img src="./icon/headerChef.png" alt="" class="nav-item-img">
+                        <p class="cooking-classes-text">Become a Chef</p>
+                    </a>
+                </form>
+                <form class="nav-menu-item" >
+                    <a href="#" class="nav-menu-link">
+                        <img src="./icon/headerGroup.png" alt="" class="nav-item-img">
+                        <p class="cooking-classes-text">
+                            Group Cooking
+                        </p>
+                    </a>
+                </form>
+            </div>
+
+            <div class="user-option">
+                <select name="select-option" class="select-option option-languages" onclick="openSelection()">
+                    <option value="english" class="option-languages">English</option>
+                    <option value="vietnam" class="option-languages">Viet Nam</option>
+                    <option value="deutch" class="option-languages">Deutch</option>
+                    <div></div>
+                </select>
+                
+
+                <select name="select-option" class="select-option option-money" id="" > 
+                    <option value="usd">USD</option>
+                    <option value="uah">UAH</option>
+                    <option value="euro">EUR</option>
+                    <option value="gbp">GBP</option>
+                    <option value="chf">CHF</option>
+                </select>
+
+                <div class="header-info">
+                    <i class="fa-solid fa-exclamation"></i>
+                </div>
+    
+                <div class="login">
+                    <a href="#">Login</a>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </div>
+            </div>
+        </div>
+        <div style=" border: 1px #FFDBB8 solid"></div>
+    </header>
+    <main>
+        <div class="intro">
+            <div class="container">
+                <div class="intro-content">
+                    <div class="intro-left">
+                        <h1 class="intro-title">Master the Art of Cooking with <span class="intro-experts">Experts</span> <br> Worldwide </h1>
+                        <p class="intro-text">Experience the joy of cooking in a whole new way with our engaging online cooking classes. Learn from the chefs, share your unique culinary knowledge, and join our growing foodie community. With COOK, learning, and teaching becomes a shared passion.</p>
+                        <div class="intro-links">
+                            <img src="./icon/play-circle.svg" alt="">
+                            <a href="#" class="intro-link">Learn more in the COOK video</a>
+                        </div>
+                        <div class="intro-button">
+                            <button class="button-find">
+                                <a href="#" class="intro-button-find">Find Your Tutor</a>
+                            </button>
+                            <button class="button-join">
+                                <a href="#" class="intro-button-join">Join Our Chefs</a>
+                            </button>
+                        </div>
+                    </div>
+    
+                    <div class="intro-right">
+                        <img src="./img/Hero Img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="container">
+                <div class="stats-menu">
+                    <div class="stat-item">
+                        <div class="stat-parameter stat-talent">100+</div>
+                        <div class="stat-title">Talented Chefs</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-parameter stat-students">1000+</div>
+                        <div class="stat-title">Students</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-parameter stat-rating">4.8 <img src="./icon/rating.png" alt="" class="stat-rating-img"></div>
+                        <div class="stat-title">Rating</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-parameter stat-categories">20+</div>
+                        <div class="stat-title">Cooking Categories</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="container">
+                <div class="categories-head">
+                    <img src="./icon/explore.png" alt="" class="categories-title-img">
+                    <div class="categories-title">
+                        Explore & Learn
+                        <p class="explore-content">Dive into a range of cooking styles and techniques tailored to your interests</p>
+                    </div>
+                    
+                </div>
+                <div class="categories-list">
+                    <div class="categories-item">
+                        <div class="list-menu list-bakery">
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listBakery.png" alt=""  class="list-menu-img">
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">
+                                        <div class="list-title">Bakery</div> 
+                                        <a href="#"><img src="./icon/listBakeryItem.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Master baking: from rustic bread to delicate pastries</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="list-menu list-vegan">
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listVegan.png" alt=""  class="list-menu-img">
+                            <div class="list-bakery-item">
+                                <div class="list-bakery-title">Vegan Cooking 
+                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                </div>
+                                <p class="list-menu-content">Create delicious, nutritious meals with plant-based ingredients</p>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="list-menu list-seafood">
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listSeafood.png" alt="" class="list-menu-img">
+                            <div class="list-bakery-item">
+                                <div class="list-bakery-title">Seafood Mastery 
+                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                </div>
+                                <p class="list-menu-content">Dive into seafood: from grilling fish to creating sushi</p>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="list-menu list-bbq" >
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listBBQ.png" alt=""  class="list-menu-img">
+                            <div class="list-bakery-item">
+                                <div class="list-bakery-title">BBQ & Grilling 
+                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                </div>
+                                <p class="list-menu-content">Fire up your skills with mouth-watering BBQ dishes</p>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="list-menu list-wine">
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listWine.png" alt=""  class="list-menu-img">
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">Wine Pairing 
+                                        <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Enhance culinary experiences by mastering wine pairing</p>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="list-menu list-cake">
+                            <a href="#" class="list-menu-link">
+                                <img src="./icon/listCake.png" alt=""  class="list-menu-img">
+                            <div class="list-bakery-item">
+                                <div class="list-bakery-title">Cake decorating
+                                    <a href="#"> <img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                </div>
+                                <p class="list-menu-content">Unleash creativity with cake decorating techniques</p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="show-more-link">
+                    <div class="show-more">
+                        Show more <img src="./icon/showMore.png" alt="" class="show-more-img">
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="benefit"></div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
