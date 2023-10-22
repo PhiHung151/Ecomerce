@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Outfit:wght@400;500;700&family=Pacifico&family=Red+Hat+Display:wght@900&family=Rubik:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css" class="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Outfit:wght@400;500;700&family=Pacifico&family=Red+Hat+Display:wght@900&family=Rubik:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,26 +15,26 @@
         <div class="header">
             <div class="navbar">
                 <h2 class="logo">Cook</h2>
-                <form class="nav-menu-item">
+                <div class="nav-menu-item">
                     <a href="#" class="nav-menu-link">
                         <img src="./icon/headerCook.png" alt="" class="nav-item-img">
-                        <p class="cooking-classes-text">Cooking Classes</p>
+                        <span class="cooking-classes-text">Cooking Classes</span>
                     </a>
-                </form>
-                <form class="nav-menu-item" >
+                </div>
+                <div class="nav-menu-item" >
                     <a href="#" class="nav-menu-link">
                         <img src="./icon/headerChef.png" alt="" class="nav-item-img">
-                        <p class="cooking-classes-text">Become a Chef</p>
+                        <span class="cooking-classes-text">Become a Chef</span>
                     </a>
-                </form>
-                <form class="nav-menu-item" >
+                </div>
+                <div class="nav-menu-item" >
                     <a href="#" class="nav-menu-link">
                         <img src="./icon/headerGroup.png" alt="" class="nav-item-img">
-                        <p class="cooking-classes-text">
+                        <span class="cooking-classes-text">
                             Group Cooking
-                        </p>
+                        </span>
                     </a>
-                </form>
+                </div>
             </div>
 
             <div class="user-option">
@@ -42,11 +42,10 @@
                     <option value="english" class="option-languages">English</option>
                     <option value="vietnam" class="option-languages">Viet Nam</option>
                     <option value="deutch" class="option-languages">Deutch</option>
-                    <div></div>
                 </select>
                 
 
-                <select name="select-option" class="select-option option-money" id="" > 
+                <select name="select-option" class="select-option option-money"> 
                     <option value="usd">USD</option>
                     <option value="uah">UAH</option>
                     <option value="euro">EUR</option>
@@ -78,17 +77,13 @@
                             <a href="#" class="intro-link"> Learn more in the COOK video</a>
                         </div>
                         <div class="intro-button">
-                            <button class="button-find">
-                                <a href="#" class="intro-button-find">Find Your Tutor</a>
-                            </button>
-                            <button class="button-join">
-                                <a href="#" class="intro-button-join">Join Our Chefs</a>
-                            </button>
+                            <a href="#" class="intro-button-find">Find Your Tutor</a>
+                            <a href="#" class="intro-button-join">Join Our Chefs</a>
                         </div>
                     </div>
     
                     <div class="intro-right">
-                        <img src="./img/Hero Img.png"  class="intro-right-img">
+                        <img src="./img/Hero_Img.png" class="intro-right-img">
                         <div class="intro-hero-review">
                             <div class="hero-review">
                                 <div class="hero-review-info">
@@ -156,34 +151,34 @@
                         <div class="list-menu list-vegan">
                             <a href="#" class="list-menu-link">
                                 <img src="./icon/listVegan.png" alt=""  class="list-menu-img">
-                            <div class="list-bakery-item">
-                                <div class="list-bakery-title">Vegan Cooking 
-                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">Vegan Cooking 
+                                        <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Create delicious, nutritious meals with plant-based ingredients</p>
                                 </div>
-                                <p class="list-menu-content">Create delicious, nutritious meals with plant-based ingredients</p>
-                            </div>
                             </a>
                         </div>
                         <div class="list-menu list-seafood">
                             <a href="#" class="list-menu-link">
                                 <img src="./icon/listSeafood.png" alt="" class="list-menu-img">
-                            <div class="list-bakery-item">
-                                <div class="list-bakery-title">Seafood Mastery 
-                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">Seafood Mastery 
+                                        <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Dive into seafood: from grilling fish to creating sushi</p>
                                 </div>
-                                <p class="list-menu-content">Dive into seafood: from grilling fish to creating sushi</p>
-                            </div>
                             </a>
                         </div>
                         <div class="list-menu list-bbq" >
                             <a href="#" class="list-menu-link">
                                 <img src="./icon/listBBQ.png" alt=""  class="list-menu-img">
-                            <div class="list-bakery-item">
-                                <div class="list-bakery-title">BBQ & Grilling 
-                                    <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">BBQ & Grilling 
+                                        <a href="#"><img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Fire up your skills with mouth-watering BBQ dishes</p>
                                 </div>
-                                <p class="list-menu-content">Fire up your skills with mouth-watering BBQ dishes</p>
-                            </div>
                             </a>
                         </div>
                         <div class="list-menu list-wine">
@@ -201,12 +196,12 @@
                         <div class="list-menu list-cake">
                             <a href="#" class="list-menu-link">
                                 <img src="./icon/listCake.png" alt=""  class="list-menu-img">
-                            <div class="list-bakery-item">
-                                <div class="list-bakery-title">Cake decorating
-                                    <a href="#"> <img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                <div class="list-bakery-item">
+                                    <div class="list-bakery-title">Cake decorating
+                                        <a href="#"> <img src="./icon/listArrow.png" alt="" class="list-item-img"></a>
+                                    </div>
+                                    <p class="list-menu-content">Unleash creativity with cake decorating techniques</p>
                                 </div>
-                                <p class="list-menu-content">Unleash creativity with cake decorating techniques</p>
-                            </div>
                             </a>
                         </div>
                     </div>
@@ -268,32 +263,32 @@
                     <div class="benefit-illustration-right">
                         <div class="benefit-right-hero">Other Advantages</div>
                         <div class="benefit-right-list">
-                            <a href="#" class="benefit-list-link">
-                                <div class="benefit-right-item">
+                            <div href="#" class="benefit-list-link">
+                                <a href="#" class="benefit-right-item">
                                     <img src="./icon/diverse.png" alt="" class="benefit-right-icon">
                                     <div class="benefit-right-title">Diverse Range of Classes
                                         <div class="benefit-right-content">Explore the culinary world with our vast array of online cooking classes. Whether you're a beginner or a seasoned cook, we have a class that suits your skill level and interests.</div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
     
-                            <a href="#" class="benefit-list-link">
-                                <div class="benefit-right-item">
+                            <div class="benefit-list-link">
+                                <a href="#"  class="benefit-right-item">
                                     <img src="./icon/opportunity.png" alt="" class="benefit-right-icon">
                                     <div class="benefit-right-title">Opportunity to Teach
                                         <div class="benefit-right-content">Share your culinary wisdom. If you're an experienced cook, our platform allows you to teach your classes, reach a global audience, and earn income.</div>
                                     </div>
-                                </div>
-                            </a>
+                                </a>
+                            </div>
     
-                            <a href="#" class="benefit-list-link">
-                                <div class="benefit-right-item">
+                            <div class="benefit-list-link">
+                                <a  href="#"  class="benefit-right-item">
                                     <img src="./icon/interactive.png" alt="" class="benefit-right-icon">
                                     <div class="benefit-right-title">Interactive Lessons
                                         <div class="benefit-right-content">Engage in real-time with expert chefs. Our interactive online cooking classes allow you to ask questions, receive instant feedback, and learn hands-on from the pros.</div>
                                     </div> 
-                                </div>
-                            </a>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -332,7 +327,7 @@
 
                 <div class="platform-form platform-second">
                     <div class="platform-tutors">
-                        <div class="platform-first-number">2</div>
+                        <div class="platform-first-number platform-number-tranform2">2</div>
                         <img src="./img/HWI2.png" alt="" class="platform-first-img">
                         
                     </div>
@@ -345,7 +340,7 @@
 
                 <div class="platform-form platform-third">
                     <div class="platform-tutors">
-                        <div class="platform-first-number platform-number-tranform">3</div>
+                        <div class="platform-first-number platform-number-tranform3">3</div>
                         <img src="./img/HIW3.png" alt="" class="platform-first-img">
                         
                     </div>
@@ -412,7 +407,7 @@
         </div>
 
         <div class="become-student">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="become-student-container">
                     <div class="become-student-left">
                         <img src="./img/BecomeStudent.png" alt="" class="become-student-img">
