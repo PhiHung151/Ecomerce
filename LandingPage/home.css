@@ -448,6 +448,16 @@
 .list-menu-link{
     text-decoration: none;
     color: var(--color-third);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.list-bakery-item{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .show-more-img{
@@ -1019,6 +1029,11 @@
     height: 200px;
     gap: 16px;
     padding-top: 26px;
+}
+
+.online-class-item{
+    padding-top: 26px;
+    gap: 16px;
 }
 
 .category-item{
